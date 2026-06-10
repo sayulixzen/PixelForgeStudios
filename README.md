@@ -15,16 +15,27 @@ Media Queries
 Local Storage
 
 - Estrutura do Projeto: 
+
 pixelforge-landing/
+
 │
+
 ├── index.html
+
 ├── styles/
+
 │   └── style.css
+
 ├── scripts/
+
 │   └── script.js
+
 ├── assets/
+
 │   ├── img/
+
 │   └── fonts/
+
 └── README.md
 
 - Como Executar o Projeto:
