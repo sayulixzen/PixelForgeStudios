@@ -5,7 +5,8 @@
 Desenvolver uma landing page moderna, responsiva e interativa para o estúdio fictício de jogos PixelForge Studios, aplicando conceitos de HTML5, CSS3 e JavaScript.
 O projeto foi desenvolvido como atividade prática para reforçar conhecimentos em desenvolvimento web, responsividade, organização de arquivos e publicação no GitHub.
 
-- Tecnologias Utilizadas: 
+- Tecnologias Utilizadas:
+
 HTML5
 
 CSS3
