@@ -7,11 +7,17 @@ O projeto foi desenvolvido como atividade prática para reforçar conhecimentos 
 
 - Tecnologias Utilizadas: 
 HTML5
+
 CSS3
+
 JavaScript
+
 Flexbox
+
 CSS Grid
+
 Media Queries
+
 Local Storage
 
 - Estrutura do Projeto: 
