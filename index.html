@@ -2,10 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelForge Studios</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <h1>Oi</h1>
+    
+    <header class="topo">
+  <div class="logo">
+    <a href="#home">Pixel<span>Forge</span></a>
+  </div>
+
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#jogos">Jogos</a></li>
+      <li><a href="#trailer">Trailers</a></li>
+      <li><a href="#comunidade">Comunidade</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <button id="theme-toggle" class="theme-btn" aria-label="Alternar Tema">
+    <span class="icon">Modo escuro</span> </button>
+</header>
+
+<main>
+    <section id="jogos" class="jogos-section">
+      <h2 class="section-title">Nossos <span>Jogos</span></h2>
+      
+      <div class="cards">
+        
+        <div class="game-card">
+          <img src="/assets/genshin.png" alt="Genshin Impact">
+          <div class="card-content">
+            <h3>Genshin Impact</h3>
+            <span class="genre">RPG de ação em mundo aberto</span>
+            <p>Um massivo RPG de ação em mundo aberto, ambientado no vasto mundo de Teyvat. O jogador assume o papel do "Viajante", que busca por seu irmão perdido. O grande diferencial do jogo é o seu sistema de combate baseado em reações elementares (combinando elementos como fogo, água, gelo e eletricidade) e a enorme liberdade de exploração, escalando montanhas, nadando e planando pelos cenários.</p>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="/assets/hollowknight.png" alt="Hollow Knight">
+          <div class="card-content">
+            <h3>Hollow Knight</h3>
+            <span class="genre">Metroidvania</span>
+            <p>Um aclamado jogo do gênero Metroidvania com uma atmosfera sombria e melancólica. Você explora as ruínas do antigo reino subterrâneo de Hallownest, enfrentando insetos corrompidos e chefes desafiadores. O jogo é amplamente elogiado por sua jogabilidade precisa, trilha sonora imersiva, direção de arte desenhada à mão e narrativa sutil contada através da exploração</p>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="/assets/honkai.png" alt="Honkai Star Rail">
+          <div class="card-content">
+            <h3>Honkai Star Rail</h3>
+            <span class="genre">RPG de turno</span>
+            <p>Um RPG de fantasia espacial com combate em turnos. Nele, você embarca no Astral Express (um trem intergaláctico) e viaja por diferentes planetas e estações espaciais para resolver crises ligadas a uma substância misteriosa chamada Stellaron. O foco está na estratégia de formação de equipes, no gerenciamento de recursos durante as batalhas e em uma narrativa rica de ficção científica.</p>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="/assets/pjsk.png" alt="Project Sekai">
+          <div class="card-content">
+            <h3>Project Sekai</h3>
+            <span class="genre">Jogo de ritmo com RPG gacha</span>
+            <p>Um jogo de ritmo e visual novel para dispositivos móveis que gira em torno do universo dos Vocaloids, como Hatsune Miku. A história acompanha diferentes grupos de jovens em Tóquio que viajam para dimensões alternativas chamadas "Sekais", criadas a partir de seus verdadeiros sentimentos. A jogabilidade combina tocar notas na tela ao ritmo de músicas famosas com o desenvolvimento da história de cada personagem.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="comunidade" class="comunidade-section">
+      <h2 class="section-title">Nossa <span>Comunidade</span></h2>
+      
+      <div class="testimonials-container">
+        
+        <div class="testimonial-card">
+          <p class="quote">"A atmosfera de Hollow Knight é absurda. A trilha sonora e os cenários melancólicos formam uma experiência imersiva fantástica. Obra-prima absoluta!"</p>
+          <div class="player-info">
+            <span class="player-name">- Kauã Joras</span>
+            <span class="player-rating">⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="quote">"Genshin Impact virou a diversão do fim de semana aqui em casa. Explorar o mapa de Teyvat e descobrir novos lugares com meu filho tem sido uma experiência incrível!"</p>
+          <div class="player-info">
+            <span class="player-name">- Bang Chan</span>
+            <span class="player-rating">⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="quote">"As mecânicas do Project Sekai são super responsivas. Sem falar na seleção de músicas que é excelente. Recomendo demais para qualquer fã de jogos de ritmo."</p>
+          <div class="player-info">
+            <span class="player-name">- Blair Z.</span>
+            <span class="player-rating">⭐⭐⭐⭐</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
