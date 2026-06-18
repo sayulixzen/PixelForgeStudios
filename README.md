@@ -43,8 +43,6 @@ pixelforge-landing/
 
 ├── assets/
 
-│   ├── img/
-
 └── README.md
 
 
