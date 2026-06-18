@@ -1,4 +1,3 @@
-
 const themeToggleBtn = document.getElementById('theme-toggle');
 const body = document.body;
 const icon = themeToggleBtn.querySelector('.icon');
@@ -6,7 +5,9 @@ const icon = themeToggleBtn.querySelector('.icon');
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme === 'light') {
   body.classList.add('light-mode');
-  icon.textContent = '☀️';
+  icon.textContent = 'White';
+} else {
+  icon.textContent = 'Black'; 
 }
 
 themeToggleBtn.addEventListener('click', () => {
@@ -14,10 +15,10 @@ themeToggleBtn.addEventListener('click', () => {
   
   if (body.classList.contains('light-mode')) {
     localStorage.setItem('theme', 'light');
-    icon.textContent = '☀️';
+    icon.textContent = 'White';
   } else {
     localStorage.setItem('theme', 'dark');
-    icon.textContent = '🌙';
+    icon.textContent = 'Black';
   }
 });
 
@@ -64,7 +65,7 @@ if (contactForm) {
     .then(response => {
       if (response.ok) {
         alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-        contactForm.reset(); // Limpa os campos do formulário
+        contactForm.reset(); 
       } else {
         alert('Houve um erro ao tentar enviar a mensagem. Tente novamente mais tarde.');
       }
@@ -74,7 +75,6 @@ if (contactForm) {
       alert('Erro de conexão. Verifique sua internet.');
     })
     .finally(() => {
-      // Restaura o botão ao estado original
       submitBtn.textContent = originalBtnText;
       submitBtn.disabled = false;
     });

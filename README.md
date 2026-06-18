@@ -45,8 +45,6 @@ pixelforge-landing/
 
 │   ├── img/
 
-│   └── fonts/
-
 └── README.md
 
 
